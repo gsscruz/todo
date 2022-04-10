@@ -1,0 +1,80 @@
+body {
+  background: #eee2ce;
+  min-height: 100vh !important;
+  padding: 2rem;
+}
+
+.appGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+.plantSvg {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+}
+
+.ladySvg {
+  grid-column: -1/-2;
+  grid-row: 2/3;
+}
+
+.ladySvg > svg {
+  width: 70%;
+}
+
+.header {
+  grid-column: 2/-2;
+  grid-row: 1/2;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.main {
+  grid-column: 2/-2;
+  grid-row: 2/-1;
+  width: 100%;
+}
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inputForm {
+  margin-top: 2rem;
+}
+
+#outlined-basic {
+  background: #f7f0f0;
+  border-style: none;
+}
+
+.buttonLayout {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.MuiTextField-root > label {
+  text-align: center;
+  width: 100%;
+  border-style: none;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.75rem;
+  padding-bottom: 0.5rem;
+}
+.css-cveggr-MuiListItemIcon-root {
+  min-width: 0;
+}
+
+.btnComponent {
+  width: 150px;
+}
+
+.completeIcon {
+  height: 2.3rem;
+  width: 2.3rem;
+}
+
+.completeIcon:hover {
+  color: #10cc17;
+}

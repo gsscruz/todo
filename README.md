@@ -1,8 +1,8 @@
 # Hosted on: https://secure-citadel-86183.herokuapp.com/
 
-![screen](./src/assets/screencapture.jpg)
+![Screen capture](./src/assets/screencapture.png)
 
-### Description: A minimalist `Todo` app built with MERN stack and with some sprinkles ✨of MaterialUI framework
+### A minimalist `Todo` app built with MERN stack and with some sprinkles ✨of MaterialUI framework
 
 ### Instructions to build and run the project
 
@@ -19,3 +19,5 @@ You can find this on https://www.mongodb.com/
 
 5. After replacing the DB value, then `yarn dev` to start the server
 6. The app will then be served on `http://localhost:8080/`
+
+The illustrations used were from [Humaaans](https://www.humaaans.com/)

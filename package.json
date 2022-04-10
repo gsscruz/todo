@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start":"./node_modules/webpack/bin/webpack.js ./src/index.js"
   },
   "author": "Gustavo",
   "license": "MIT",
